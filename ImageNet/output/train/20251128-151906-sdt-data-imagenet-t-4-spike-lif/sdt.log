@@ -1,0 +1,3 @@
+2025-11-28 15:19:06,049 INFO: Model sdt created, param count:285517736
+2025-11-28 15:19:06,051 INFO: Using native Torch AMP. Training in mixed precision.
+2025-11-28 15:19:06,051 INFO: Scheduled epochs: 310

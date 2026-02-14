@@ -1,0 +1,43 @@
+2025-11-28 10:44:34,258 - INFO: Logger created at ./log/cifar-10_snn_t10_vgg16_act_mns_rec_width_1.0-opt_sgdm_tdbn_wd_0.001_p_0.1__gamma_1.0__cas_0/train.log
+2025-11-28 10:44:34,258 - INFO: The hyperparameter list:
+2025-11-28 10:44:34,258 - INFO:   --seed 200
+2025-11-28 10:44:34,258 - INFO:   --arch VGG16
+2025-11-28 10:44:34,258 - INFO:   --dataset CIFAR-10
+2025-11-28 10:44:34,258 - INFO:   --data_path ./data
+2025-11-28 10:44:34,258 - INFO:   --ckpt_path ./checkpoint
+2025-11-28 10:44:34,258 - INFO:   --log_path ./log/cifar-10_snn_t10_vgg16_act_mns_rec_width_1.0-opt_sgdm_tdbn_wd_0.001_p_0.1__gamma_1.0__cas_0
+2025-11-28 10:44:34,258 - INFO:   --auto_aug False
+2025-11-28 10:44:34,258 - INFO:   --cutout False
+2025-11-28 10:44:34,258 - INFO:   --resume None
+2025-11-28 10:44:34,258 - INFO:   --train_batch_size 32
+2025-11-28 10:44:34,258 - INFO:   --val_batch_size 32
+2025-11-28 10:44:34,258 - INFO:   --lr 0.1
+2025-11-28 10:44:34,258 - INFO:   --width_lr 0.0003
+2025-11-28 10:44:34,258 - INFO:   --save_last False
+2025-11-28 10:44:34,258 - INFO:   --bn_type tdbn
+2025-11-28 10:44:34,258 - INFO:   --bias False
+2025-11-28 10:44:34,258 - INFO:   --wd 0.001
+2025-11-28 10:44:34,259 - INFO:   --num_epoch 100
+2025-11-28 10:44:34,259 - INFO:   --num_workers 8
+2025-11-28 10:44:34,259 - INFO:   --optim SGDM
+2025-11-28 10:44:34,259 - INFO:   --grid_search ./summary.csv
+2025-11-28 10:44:34,259 - INFO:   --act mns_rec
+2025-11-28 10:44:34,259 - INFO:   --alpha 1.0
+2025-11-28 10:44:34,259 - INFO:   --use_gate False
+2025-11-28 10:44:34,259 - INFO:   --granularity layer
+2025-11-28 10:44:34,259 - INFO:   --decay 0.5
+2025-11-28 10:44:34,259 - INFO:   --thresh 0.5
+2025-11-28 10:44:34,259 - INFO:   --p 0.1
+2025-11-28 10:44:34,259 - INFO:   --gamma 1.0
+2025-11-28 10:44:34,259 - INFO:   --train_decay False
+2025-11-28 10:44:34,259 - INFO:   --train_thresh False
+2025-11-28 10:44:34,259 - INFO:   --device cuda:0
+2025-11-28 10:44:34,259 - INFO:   --T 10
+2025-11-28 10:44:34,259 - INFO:   --scheduler COSINE
+2025-11-28 10:44:34,259 - INFO:   --lr_milestone [30, 70, 90, 95]
+2025-11-28 10:44:34,259 - INFO:   --ns_milestone [0, 0.2, 0.4, 0.6, 0.8, 0.95]
+2025-11-28 10:44:34,259 - INFO:   --dts_cache /home/kairongyu/kd-snn/experiment/cifar10dvs/dts_cache
+2025-11-28 10:44:34,259 - INFO:   --means 1.0
+2025-11-28 10:44:34,259 - INFO:   --lamb 0.001
+2025-11-28 10:44:34,259 - INFO:   --train_width True
+2025-11-28 10:44:34,259 - INFO:   --log_interval 100
